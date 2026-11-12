@@ -357,8 +357,7 @@ def sign_document_pdf(
 
                 PdfSignatureMetadata(
                     field_name=field_name,
-                    reason=f"Digitally signed on {doctype}",
-                    location=digi.sign_address or "India"
+                    reason=f"Digitally signed on {doctype}"
                 ),
 
                 signer=signer,
@@ -401,8 +400,7 @@ def sign_document_pdf(
 
             PdfSignatureMetadata(
                 field_name="Signature_Last_Page",
-                reason=f"Digitally signed on {doctype}",
-                location=digi.sign_address or "India"
+                reason=f"Digitally signed on {doctype}"
             ),
 
             signer=signer,
