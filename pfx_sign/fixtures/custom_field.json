@@ -1,0 +1,16 @@
+[
+ {
+  "allow_in_quick_entry": 0,
+  "allow_on_submit": 0,
+  "default": "0",
+  "docstatus": 0,
+  "doctype": "Custom Field",
+  "dt": "User",
+  "fieldname": "permission_for_pfx_sign",
+  "fieldtype": "Check",
+  "insert_after": "enabled",
+  "label": "Permission for PFX Sign",
+  "module": "Pfx Sign",
+  "name": "User-permission_for_pfx_sign"
+ }
+]

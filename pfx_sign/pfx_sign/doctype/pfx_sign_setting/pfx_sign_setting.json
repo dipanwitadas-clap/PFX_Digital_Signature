@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:signatory_name",
+ "creation": "2026-05-08 13:12:20.647651",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "signatory_name",
+  "is_default",
+  "section_break_jk2fi",
+  "pfx_file",
+  "dsc_password",
+  "sign_address",
+  "column_break_mhnpo",
+  "multiple_page_sign",
+  "allow_doctype",
+  "signature_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "signatory_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Signatory Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_default",
+   "fieldtype": "Check",
+   "label": "Is Default"
+  },
+  {
+   "fieldname": "pfx_file",
+   "fieldtype": "Attach",
+   "label": "PFX File",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_jk2fi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dsc_password",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "DSC Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sign_address",
+   "fieldtype": "Data",
+   "label": "Sign Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mhnpo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "multiple_page_sign",
+   "fieldtype": "Check",
+   "label": "Multiple Page Sign "
+  },
+  {
+   "fieldname": "signature_image",
+   "fieldtype": "Attach Image",
+   "label": "Signature Image"
+  },
+  {
+   "fieldname": "allow_doctype",
+   "fieldtype": "Table MultiSelect",
+   "label": "Allow Doctype",
+   "options": "Pfx Sign Allowed Doctype"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-11-09 16:03:04.998283",
+ "modified_by": "Administrator",
+ "module": "Pfx Sign",
+ "name": "Pfx Sign Setting",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "signatory_name"
+}

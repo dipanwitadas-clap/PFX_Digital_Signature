@@ -256,3 +256,9 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+# Includes in <head>
+app_include_js = "pfx_sign.bundle.js"
+
+# Fixtures
+fixtures = [{"dt": "Custom Field", "filters": [["module", "=", "Pfx Sign"]]}]
